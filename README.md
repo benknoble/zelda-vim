@@ -12,7 +12,7 @@ TODO pictures here
 
 > cue fairy fountain music
 
-This is a set of [LoZ][loz]-inspired colorscheme for vim, named (so far)
+This is a set of [LoZ][loz]-inspired colorschemes for vim, named (so far)
 
 - `ganon`
 - `link`
