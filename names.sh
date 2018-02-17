@@ -28,7 +28,7 @@ main() {
   files=( $( find_color_files ) )
   names=( $( files_to_names "${files[@]}" ) )
   IFS=$'\n' list=( $( names_to_list "${names[@]}" ) )
-  printf -- "%s\n" "${list[@]}"
+  printf -- "%s\n" "${list[@]}" | sort
   # this would be sufficient, but I'm being a bit anal
   # names_to_list "${names[@]}"
 }
