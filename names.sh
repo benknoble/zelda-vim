@@ -17,12 +17,20 @@ files_to_names() {
   printf "%s\n" "${@%%.vim}"
 }
 
+# transform the parameters by formatting them as
+# - `$x`
+names_to_list() {
+  printf -- '- `%s`\n' "$@"
+}
+
 main() {
-  declare -a files names
+  declare -a files names list
   files=( $( find_color_files ) )
   names=( $( files_to_names "${files[@]}" ) )
-
-  printf "%s\n" "${names[@]}"
+  IFS=$'\n' list=( $( names_to_list "${names[@]}" ) )
+  printf -- "%s\n" "${list[@]}"
+  # this would be sufficient, but I'm being a bit anal
+  # names_to_list "${names[@]}"
 }
 
 main
