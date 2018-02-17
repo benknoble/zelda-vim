@@ -14,10 +14,10 @@ TODO pictures here
 
 This is a set of [LoZ][loz]-inspired colorscheme for vim, named (so far)
 
-- `triforce`
-- `link`
-- `zelda`
 - `ganon`
+- `link`
+- `triforce`
+- `zelda`
 
 More are planned for development; keep track of this repo by [starring][star]
 it, [watching][watch] it, or [forking][fork] it.
