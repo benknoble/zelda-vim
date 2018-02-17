@@ -7,8 +7,14 @@ set -euo pipefail
 
 dir="$( cd "$( dirname "${BASH_SOURCE[0]}")" && pwd )"
 
+# return the basename of all vim files in the colors directory
+find_color_files() {
+  find "$dir/colors" -iname '*.vim' -exec basename {} \;
+}
+
 main() {
-  echo "Not there yet"
+  declare -a files names
+  files="$( find_color_files )"
 }
 
 main
