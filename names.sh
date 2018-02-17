@@ -12,9 +12,17 @@ find_color_files() {
   find "$dir/colors" -iname '*.vim' -exec basename {} \;
 }
 
+# transform the parameters by removing the vim suffix
+files_to_names() {
+  printf "%s\n" "${@%%.vim}"
+}
+
 main() {
   declare -a files names
-  files="$( find_color_files )"
+  files=( $( find_color_files ) )
+  names=( $( files_to_names "${files[@]}" ) )
+
+  printf "%s\n" "${names[@]}"
 }
 
 main
