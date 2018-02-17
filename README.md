@@ -1,10 +1,12 @@
-# Adventure Awaits
+# Adventure Awaits !
 
 Here be dragons, evil wizard beasts, forests (bad and good), and dungeons
-galore.
+galore...
 
 But fear not! A brave lone cursor, navigating them relentlessly, seeks to slay
 bugs and save the princess! Can *you* reunite the Triforce?
+
+TODO pictures here
 
 # RESET
 
