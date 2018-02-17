@@ -31,8 +31,8 @@ it, [watching][watch] it, or [forking][fork] it.
 Questions? Comments? Feedback? Feeling __Lost__ in the __Woods__? Use the
 [Issues][issues] page on the [Github repo][github].
 
-[github]: github.com/benknoble/zelda-vim
-[issues]: github.com/benknoble/zelda-vim/issues
+[github]: https://github.com/benknoble/zelda-vim
+[issues]: https://github.com/benknoble/zelda-vim/issues
 [loz]: https://en.wikipedia.org/wiki/The_Legend_of_Zelda
-[watch]: github.com/benknoble/zelda-vim/subscription
-[fork]: github.com/benknoble/zelda-vim/fork
+[watch]: https://github.com/benknoble/zelda-vim/subscription
+[fork]: https://github.com/benknoble/zelda-vim/fork
