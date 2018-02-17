@@ -19,7 +19,7 @@ This is a set of [LoZ][loz]-inspired colorscheme for vim, named (so far)
 - `triforce`
 - `zelda`
 
-More are planned for development; keep track of this repo by [starring][star]
+More are planned for development; keep track of this repo by starring
 it, [watching][watch] it, or [forking][fork] it.
 
 ## Press START to begin.
@@ -34,6 +34,5 @@ Questions? Comments? Feedback? Feeling __Lost__ in the __Woods__? Use the
 [github]: github.com/benknoble/zelda-vim
 [issues]: github.com/benknoble/zelda-vim/issues
 [loz]: https://en.wikipedia.org/wiki/The_Legend_of_Zelda
-[star]: github.com/benknoble/zelda-vim
 [watch]: github.com/benknoble/zelda-vim/subscription
 [fork]: github.com/benknoble/zelda-vim/fork
