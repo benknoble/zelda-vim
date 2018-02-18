@@ -12,62 +12,62 @@ endif
 
 let g:colors_name = "triforce"
 
-hi Normal ctermfg=184 ctermbg=NONE cterm=NONE
+hi Normal ctermfg=184 ctermbg=black cterm=NONE
 hi SpecialComment ctermfg=196 ctermbg=NONE cterm=NONE
-" hi Typedef ctermfg=221 ctermbg=NONE cterm=bold
-" hi Title ctermfg=68 ctermbg=NONE cterm=bold
-" hi Folded ctermfg=214 ctermbg=236 cterm=NONE
+hi Typedef ctermfg=221 ctermbg=NONE cterm=bold
+hi Title ctermfg=68 ctermbg=NONE cterm=bold
+hi Folded ctermfg=214 ctermbg=236 cterm=NONE
 hi PreCondit ctermfg=223 ctermbg=NONE cterm=NONE
 hi Include ctermfg=223 ctermbg=NONE cterm=NONE
 hi StatusLineNC ctermfg=62 ctermbg=237 cterm=NONE
 hi NonText ctermfg=210 ctermbg=NONE cterm=bold
 hi ErrorMsg ctermfg=15 ctermbg=196 cterm=bold
-" hi Debug ctermfg=214 ctermbg=NONE cterm=bold
+hi Debug ctermfg=214 ctermbg=NONE cterm=bold
 hi PMenuSbar ctermfg=NONE ctermbg=102 cterm=NONE
-" hi Identifier ctermfg=186 ctermbg=NONE cterm=NONE
+hi Identifier ctermfg=186 ctermbg=NONE cterm=NONE
 hi SpecialChar ctermfg=196 ctermbg=NONE cterm=NONE
-" hi Conditional ctermfg=227 ctermbg=NONE cterm=bold
-" hi StorageClass ctermfg=221 ctermbg=NONE cterm=bold
+hi Conditional ctermfg=227 ctermbg=NONE cterm=bold
+hi StorageClass ctermfg=221 ctermbg=NONE cterm=bold
 hi Todo ctermfg=9 ctermbg=NONE cterm=NONE
 hi Special ctermfg=196 ctermbg=NONE cterm=NONE
-" hi LineNr ctermfg=143 ctermbg=NONE cterm=bold
+hi LineNr ctermfg=143 ctermbg=NONE cterm=bold
 hi StatusLine ctermfg=143 ctermbg=236 cterm=bold
 hi Label ctermfg=227 ctermbg=NONE cterm=bold
 hi PMenuSel ctermfg=143 ctermbg=236 cterm=NONE
 hi Search ctermfg=15 ctermbg=34 cterm=NONE
-" hi Delimiter ctermfg=214 ctermbg=NONE cterm=bold
-" hi Statement ctermfg=227 ctermbg=NONE cterm=bold
-" hi Comment ctermfg=58 ctermbg=NONE cterm=NONE
-" hi Character ctermfg=196 ctermbg=NONE cterm=bold
-" hi Float ctermfg=196 ctermbg=NONE cterm=bold
-" hi Number ctermfg=62 ctermbg=NONE cterm=bold
-" hi Boolean ctermfg=196 ctermbg=NONE cterm=bold
-" hi Operator ctermfg=47 ctermbg=NONE cterm=bold
+hi Delimiter ctermfg=214 ctermbg=NONE cterm=bold
+hi Statement ctermfg=227 ctermbg=NONE cterm=bold
+hi Comment ctermfg=58 ctermbg=NONE cterm=NONE
+hi Character ctermfg=196 ctermbg=NONE cterm=bold
+hi Float ctermfg=196 ctermbg=NONE cterm=bold
+hi Number ctermfg=62 ctermbg=NONE cterm=bold
+hi Boolean ctermfg=196 ctermbg=NONE cterm=bold
+hi Operator ctermfg=47 ctermbg=NONE cterm=bold
 hi Question ctermfg=210 ctermbg=NONE cterm=bold
 hi WarningMsg ctermfg=196 ctermbg=NONE cterm=bold
 hi DiffDelete ctermfg=196 ctermbg=NONE cterm=NONE
 hi ModeMsg ctermfg=0 ctermbg=184 cterm=NONE
 hi Define ctermfg=223 ctermbg=NONE cterm=NONE
-" hi Function ctermfg=47 ctermbg=NONE cterm=NONE
-" hi PreProc ctermfg=229 ctermbg=NONE cterm=NONE
-" hi MoreMsg ctermfg=178 ctermbg=NONE cterm=bold
+hi Function ctermfg=47 ctermbg=NONE cterm=NONE
+hi PreProc ctermfg=229 ctermbg=NONE cterm=NONE
+hi MoreMsg ctermfg=178 ctermbg=NONE cterm=bold
 hi VertSplit ctermfg=236 ctermbg=143 cterm=NONE
 hi Exception ctermfg=227 ctermbg=NONE cterm=bold
-" hi Keyword ctermfg=227 ctermbg=NONE cterm=bold
+hi Keyword ctermfg=227 ctermbg=NONE cterm=bold
 hi Type ctermfg=227 ctermbg=NONE cterm=bold
-" hi Cursor ctermfg=11 ctermbg=11 cterm=NONE
+hi Cursor ctermfg=11 ctermbg=11 cterm=NONE
 hi Error ctermfg=196 ctermbg=NONE cterm=NONE
 hi PMenu ctermfg=7 ctermbg=237 cterm=NONE
 hi SpecialKey ctermfg=196 ctermbg=NONE cterm=NONE
-" hi Constant ctermfg=62 ctermbg=NONE cterm=bold
+hi Constant ctermfg=62 ctermbg=NONE cterm=bold
 hi Tag ctermfg=214 ctermbg=NONE cterm=bold
-" hi String ctermfg=62 ctermbg=NONE cterm=bold
+hi String ctermfg=62 ctermbg=NONE cterm=bold
 hi PMenuThumb ctermfg=NONE ctermbg=143 cterm=NONE
-" hi Repeat ctermfg=227 ctermbg=NONE cterm=bold
+hi Repeat ctermfg=227 ctermbg=NONE cterm=bold
 hi Directory ctermfg=223 ctermbg=NONE cterm=bold
-" hi Structure ctermfg=221 ctermbg=NONE cterm=bold
+hi Structure ctermfg=221 ctermbg=NONE cterm=bold
 hi Macro ctermfg=223 ctermbg=NONE cterm=NONE
-" hi TabLine ctermfg=62 ctermbg=NONE cterm=NONE
+hi TabLine ctermfg=62 ctermbg=NONE cterm=NONE
 " hi cursorim ctermfg=15 ctermbg=152 cterm=NONE
 " hi mbenormal ctermfg=187 ctermbg=237 cterm=NONE
 " hi perlspecialstring ctermfg=176 ctermbg=238 cterm=NONE
