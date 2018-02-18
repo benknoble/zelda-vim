@@ -13,7 +13,7 @@ endif
 let g:colors_name = "triforce"
 
 hi Normal guifg=#e0e009 guibg=#000000 guisp=#000000 gui=NONE ctermfg=184 ctermbg=NONE cterm=NONE
-" hi SpecialComment guifg=#ffa500 guibg=NONE guisp=NONE gui=bold ctermfg=214 ctermbg=NONE cterm=bold
+hi SpecialComment guifg=#ff0000 guibg=#000000 guisp=#000000 gui=NONE ctermfg=196 ctermbg=NONE cterm=NONE
 " hi Typedef guifg=#FFE13F guibg=NONE guisp=NONE gui=bold ctermfg=221 ctermbg=NONE cterm=bold
 " hi Title guifg=#6188d6 guibg=NONE guisp=NONE gui=bold ctermfg=68 ctermbg=NONE cterm=bold
 " hi Folded guifg=#ffa500 guibg=#2E2E2E guisp=#2E2E2E gui=NONE ctermfg=214 ctermbg=236 cterm=NONE
@@ -25,11 +25,11 @@ hi ErrorMsg guifg=#ffffff guibg=#ff0000 guisp=#ff0000 gui=bold ctermfg=15 ctermb
 " hi Debug guifg=#ffa500 guibg=NONE guisp=NONE gui=bold ctermfg=214 ctermbg=NONE cterm=bold
 hi PMenuSbar guifg=NONE guibg=#848688 guisp=#848688 gui=NONE ctermfg=NONE ctermbg=102 cterm=NONE
 " hi Identifier guifg=#c6d687 guibg=NONE guisp=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
-" hi SpecialChar guifg=#ffa500 guibg=NONE guisp=NONE gui=bold ctermfg=214 ctermbg=NONE cterm=bold
+hi SpecialChar guifg=#ff0000 guibg=#000000 guisp=#000000 gui=NONE ctermfg=196 ctermbg=NONE cterm=NONE
 " hi Conditional guifg=#ffff60 guibg=NONE guisp=NONE gui=bold ctermfg=227 ctermbg=NONE cterm=bold
 " hi StorageClass guifg=#FFE13F guibg=NONE guisp=NONE gui=bold ctermfg=221 ctermbg=NONE cterm=bold
 hi Todo guifg=#ff6161 guibg=NONE guisp=#383838 gui=NONE ctermfg=9 ctermbg=NONE cterm=NONE
-" hi Special guifg=#ff0000 guibg=NONE guisp=NONE gui=bold ctermfg=196 ctermbg=NONE cterm=bold
+hi Special guifg=#ff0000 guibg=#000000 guisp=#000000 gui=NONE ctermfg=196 ctermbg=NONE cterm=NONE
 " hi LineNr guifg=#978345 guibg=NONE guisp=NONE gui=bold ctermfg=143 ctermbg=NONE cterm=bold
 hi StatusLine guifg=#afaf5f guibg=#2E2E2E guisp=#2E2E2E gui=bold ctermfg=143 ctermbg=236 cterm=bold
 hi Label guifg=#ffff60 guibg=NONE guisp=NONE gui=bold ctermfg=227 ctermbg=NONE cterm=bold
@@ -58,7 +58,7 @@ hi Type guifg=#ffff61 guibg=NONE guisp=NONE gui=bold ctermfg=227 ctermbg=NONE ct
 " hi Cursor guifg=#ffff00 guibg=#ffff00 guisp=#ffff00 gui=NONE ctermfg=11 ctermbg=11 cterm=NONE
 hi Error guifg=#ff0000 guibg=#000000 guisp=#000000 gui=NONE ctermfg=196 ctermbg=NONE cterm=NONE
 hi PMenu guifg=#bebebe guibg=#3E3E3E guisp=#3E3E3E gui=NONE ctermfg=7 ctermbg=237 cterm=NONE
-" hi SpecialKey guifg=#ffddaa guibg=NONE guisp=NONE gui=bold ctermfg=223 ctermbg=NONE cterm=bold
+hi SpecialKey guifg=#ff0000 guibg=#000000 guisp=#000000 gui=NONE ctermfg=196 ctermbg=NONE cterm=NONE
 " hi Constant guifg=#5f5fd7 guibg=NONE guisp=NONE gui=bold ctermfg=62 ctermbg=NONE cterm=bold
 hi Tag guifg=#ffa500 guibg=NONE guisp=NONE gui=bold ctermfg=214 ctermbg=NONE cterm=bold
 " hi String guifg=#5f5fd7 guibg=NONE guisp=NONE gui=bold ctermfg=62 ctermbg=NONE cterm=bold
