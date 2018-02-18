@@ -7,3 +7,4 @@ endif
 
 colo default
 set background=dark
+set rtp+=/Users/Knoble/zelda-vim
