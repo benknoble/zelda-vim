@@ -16,7 +16,7 @@ if they picked those values because rgb is easy to render?
 
 > cue fairy fountain music
 
-This is a set of [LoZ][loz]-inspired colorscheme for vim, named (so far)
+This is a set of [LoZ][loz]-inspired colorschemes for vim, named (so far)
 
 - `ganon`
 - `link`
@@ -35,9 +35,27 @@ it, [watching][watch] it, or [forking][fork] it.
 Questions? Comments? Feedback? Feeling __Lost__ in the __Woods__? Use the
 [Issues][issues] page on the [Github repo][github].
 
-[github]: github.com/benknoble/zelda-vim
-[issues]: github.com/benknoble/zelda-vim/issues
+### The Dark World
+
+> __Shadow and Light are two sides of the same coin...__
+>
+> __...One cannot exist without the other__
+
+For the moment, I will only be constructing dark themes as that's what I use. I
+am open to (well-constructed) light themes, if well argued for.
+
+### Sheikah Slate
+
+> *A mysterious tablet with a glowing center. You've never seen this device*
+> *before, and yet...there's something familiar about it.*
+
+I also only use terminal vim. I know that colorschemes are weird between
+terminal and gvim, but I'm hoping this will be sufficient (or someone will port
+them).
+
+[github]: https://github.com/benknoble/zelda-vim
+[issues]: https://github.com/benknoble/zelda-vim/issues
 [loz]: https://en.wikipedia.org/wiki/The_Legend_of_Zelda
-[watch]: github.com/benknoble/zelda-vim/subscription
-[fork]: github.com/benknoble/zelda-vim/fork
+[watch]: https://github.com/benknoble/zelda-vim/subscription
+[fork]: https://github.com/benknoble/zelda-vim/fork
 [triforce]: screenshots/triforce.png
