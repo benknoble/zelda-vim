@@ -113,7 +113,6 @@ hi MatchParen cterm=underline ctermfg=47 ctermbg=NONE
 
 " Comment{{{
 hi Comment ctermfg=58 ctermbg=NONE cterm=NONE
-hi javascriptdoccomment ctermfg=58 ctermbg=NONE cterm=NONE
 hi djangocomment ctermfg=58 ctermbg=NONE cterm=NONE
 hi erubycomment ctermfg=58 ctermbg=NONE cterm=NONE
 hi comments ctermfg=58 ctermbg=NONE cterm=NONE
@@ -193,7 +192,6 @@ hi Type ctermfg=227 ctermbg=NONE cterm=bold
 hi bufexplorersorttype ctermfg=227 ctermbg=NONE cterm=bold
 hi type ctermfg=227 ctermbg=NONE cterm=bold
 hi fortrantype ctermfg=227 ctermbg=NONE cterm=bold
-hi javascriptprototype ctermfg=227 ctermbg=NONE cterm=bold
 hi cppstltype ctermfg=227 ctermbg=NONE cterm=bold
 "}}}
 
@@ -223,17 +221,10 @@ hi cssfunction ctermfg=47 ctermbg=NONE cterm=NONE
 hi pythonfunction ctermfg=47 ctermbg=NONE cterm=NONE
 hi phpfunctions ctermfg=47 ctermbg=NONE cterm=NONE
 hi plsqlfunction ctermfg=47 ctermbg=NONE cterm=NONE
-hi javascriptfunction ctermfg=47 ctermbg=NONE cterm=NONE
 hi phpspecialfunction ctermfg=47 ctermbg=NONE cterm=NONE
 hi rubymethod ctermfg=47 ctermbg=NONE cterm=NONE
 hi rubylocalvariableormethod ctermfg=47 ctermbg=NONE cterm=NONE
 hi method ctermfg=47 ctermbg=NONE cterm=NONE
-hi rubyRailsARAssociationMethod ctermfg=47 ctermbg=NONE cterm=NONE
-hi rubyRailsARMethod ctermfg=47 ctermbg=NONE cterm=NONE
-hi rubyRailsRenderMethod ctermfg=47 ctermbg=NONE cterm=NONE
-hi rubyRailsMethod ctermfg=47 ctermbg=NONE cterm=NONE
-hi erubyRailsMethod ctermfg=47 ctermbg=NONE cterm=NONE
-hi javaScriptRailsFunction ctermfg=47 ctermbg=NONE cterm=NONE
 "}}}
 
 " Conditional Repeat Label{{{
@@ -242,17 +233,14 @@ hi link rubyconditional Keyword
 hi link rubyconditionalmodifier Keyword
 hi link plsqlconditional Keyword
 hi link pythonconditional Keyword
-hi link javascriptconditional Keyword
 hi link Repeat Keyword
 hi link javarepeat Keyword
 hi link perlrepeat Keyword
 hi link plsqlrepeat Keyword
 hi link pythonrepeat Keyword
-hi link javascriptrepeat Keyword
 hi link Label Keyword
 hi link perllabel Keyword
 hi link fortranlabelnumber Keyword
-hi link javascriptlabel Keyword
 "}}}
 
 " Operator{{{
@@ -263,7 +251,6 @@ hi rubyoperator ctermfg=47 ctermbg=NONE cterm=NONE
 hi pythonoperator ctermfg=47 ctermbg=NONE cterm=NONE
 hi jinjaoperator ctermfg=47 ctermbg=NONE cterm=NONE
 hi phpoperator ctermfg=47 ctermbg=NONE cterm=NONE
-hi javascriptoperator ctermfg=47 ctermbg=NONE cterm=NONE
 hi operatorcurlybrackets ctermfg=47 ctermbg=NONE cterm=NONE
 "}}}
 
@@ -403,3 +390,25 @@ hi link ocamlFullMod PreCondit
 hi link ocamlWith Keyword
 hi link ocamlUnit Keyword
 " }}}
+
+" Ruby Rails{{{
+hi link rubyRailsARAssociationMethod Function
+hi link rubyRailsARMethod Function
+hi link rubyRailsRenderMethod Function
+hi link rubyRailsMethod Function
+hi link erubyRailsMethod Function
+hi link rubyRailsUserClass Type
+"}}}
+
+" javascript{{{
+hi link javaScriptBraces Delimiter
+hi link javaScriptFunction Function
+hi link javascriptdoccomment Comment
+hi link javascriptprototype Type
+hi link javascriptfunction Function
+hi link javaScriptRailsFunction Function
+hi link javascriptconditional Keyword
+hi link javascriptrepeat Keyword
+hi link javascriptlabel Keyword
+hi link javascriptoperator Operator
+"}}}
