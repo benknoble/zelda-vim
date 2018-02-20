@@ -6,7 +6,11 @@ galore...
 But fear not! A brave lone cursor, navigating them relentlessly, seeks to slay
 bugs and save the princess! Can *you* reunite the Triforce?
 
-TODO pictures here
+![triforce screenshot][triforce]
+Based on the color of the "Magical Golden Triangles" and the canonical colors
+for Power, Wisdom and Courage, `triforce` uses a palette of yellow, with a dash
+of red, green, blue thrown in. Now that I type that out, does anyone else wonder
+if they picked those values because rgb is easy to render?
 
 # RESET
 
@@ -36,3 +40,4 @@ Questions? Comments? Feedback? Feeling __Lost__ in the __Woods__? Use the
 [loz]: https://en.wikipedia.org/wiki/The_Legend_of_Zelda
 [watch]: github.com/benknoble/zelda-vim/subscription
 [fork]: github.com/benknoble/zelda-vim/fork
+[triforce]: screenshots/triforce.png
