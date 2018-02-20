@@ -166,7 +166,6 @@ hi phpidentifier ctermfg=186 ctermbg=NONE cterm=NONE
 hi cssidentifier ctermfg=186 ctermbg=NONE cterm=NONE
 hi rubypredifinedidentifier ctermfg=186 ctermbg=NONE cterm=NONE
 hi rubyidentifier ctermfg=186 ctermbg=NONE cterm=NONE
-hi identifier ctermfg=186 ctermbg=NONE cterm=NONE
 " }}}
 
 " Statement{{{
@@ -238,22 +237,22 @@ hi javaScriptRailsFunction ctermfg=47 ctermbg=NONE cterm=NONE
 "}}}
 
 " Conditional Repeat Label{{{
-hi Conditional ctermfg=227 ctermbg=NONE cterm=bold
-hi rubyconditional ctermfg=227 ctermbg=NONE cterm=bold
-hi rubyconditionalmodifier ctermfg=227 ctermbg=NONE cterm=bold
-hi plsqlconditional ctermfg=227 ctermbg=NONE cterm=bold
-hi pythonconditional ctermfg=227 ctermbg=NONE cterm=bold
-hi javascriptconditional ctermfg=227 ctermbg=NONE cterm=bold
-hi Repeat ctermfg=227 ctermbg=NONE cterm=bold
-hi javarepeat ctermfg=227 ctermbg=NONE cterm=bold
-hi perlrepeat ctermfg=227 ctermbg=NONE cterm=bold
-hi plsqlrepeat ctermfg=227 ctermbg=NONE cterm=bold
-hi pythonrepeat ctermfg=227 ctermbg=NONE cterm=bold
-hi javascriptrepeat ctermfg=227 ctermbg=NONE cterm=bold
-hi Label ctermfg=227 ctermbg=NONE cterm=bold
-hi perllabel ctermfg=227 ctermbg=NONE cterm=bold
-hi fortranlabelnumber ctermfg=227 ctermbg=NONE cterm=bold
-hi javascriptlabel ctermfg=227 ctermbg=NONE cterm=bold
+hi link Conditional Keyword
+hi link rubyconditional Keyword
+hi link rubyconditionalmodifier Keyword
+hi link plsqlconditional Keyword
+hi link pythonconditional Keyword
+hi link javascriptconditional Keyword
+hi link Repeat Keyword
+hi link javarepeat Keyword
+hi link perlrepeat Keyword
+hi link plsqlrepeat Keyword
+hi link pythonrepeat Keyword
+hi link javascriptrepeat Keyword
+hi link Label Keyword
+hi link perllabel Keyword
+hi link fortranlabelnumber Keyword
+hi link javascriptlabel Keyword
 "}}}
 
 " Operator{{{
@@ -269,8 +268,8 @@ hi operatorcurlybrackets ctermfg=47 ctermbg=NONE cterm=NONE
 "}}}
 
 " Keyword{{{
-hi Keyword ctermfg=227 ctermbg=NONE cterm=bold
-hi rubykeyword ctermfg=227 ctermbg=NONE cterm=bold
+hi Keyword ctermfg=227 ctermbg=NONE cterm=NONE
+hi rubykeyword ctermfg=227 ctermbg=NONE cterm=NONE
 "}}}
 
 " Exception{{{
@@ -351,6 +350,59 @@ hi debugstop ctermfg=47 ctermbg=NONE cterm=NONE
 hi debugbreak ctermfg=47 ctermbg=NONE cterm=NONE
 "}}}
 
+" Elixir {{{
+hi link elixirAtom Keyword
+hi link elixirModuleDeclaration Type
+hi link elixirAlias Typedef
+hi link elixirInterpolationDelimiter Delimiter
+hi link elixirStringDelimiter Delimiter
+"}}}
+
+" Vim Script {{{
+hi link vimGroupName Identifier
+hi link vimGroup Keyword
+hi link vimOption Keyword
+hi link helpExample markdownCode
+" }}}
+
+" Markdown: {{{
+hi link markdownH1 Title
+hi link markdownH2 Title
+hi link markdownH3 Tag
+hi link markdownH4 Tag
+hi link markdownH5 Tag
+hi link markdownH6 Tag
+
+hi link markdownCode PreProc
+hi link markdownCodeBlock markdownCode
+hi link markdownCodeDelimiter Delimiter
+
+hi link markdownBlockquote Delimiter
+hi link markdownListMarker Delimiter
+hi link markdownOrderedListMarker Delimiter
+hi link markdownRule Delimiter
+hi link markdownHeadingRule Delimiter
+
+hi link markdownUrlDelimiter Delimiter
+hi link markdownLinkDelimiter Delimiter
+hi link markdownLinkTextDelimiter Delimiter
+
+hi link markdownHeadingDelimiter Delimiter
+hi link markdownUrl Constant
+hi link markdownUrlTitleDelimiter Delimiter
+" }}}
+
+" OCaml {{{
+hi link ocamlModule Type
+hi link ocamlConstructor Type
+hi link ocamlType Type
+hi link ocamlModPath Constant
+hi link ocamlTodo Todo
+hi link ocamlLabel Label
+hi link ocamlFullMod PreCondit
+hi link ocamlWith Keyword
+hi link ocamlUnit Keyword
+" }}}
 
 " hi cursorim ctermfg=15 ctermbg=152 cterm=NONE
 " hi mbenormal ctermfg=187 ctermbg=237 cterm=NONE
