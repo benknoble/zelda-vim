@@ -28,7 +28,14 @@ it, [watching][watch] it, or [forking][fork] it.
 
 ## Press START to begin.
 
-> plugin installation instructions (TODO)
+- Pathogen
+
+Run the following in a terminal:
+
+    cd ~/.vim/bundle
+    git clone https://github.com/benknoble/zelda-vim
+
+Or use submodules...
 
 ## It's dangerous to go alone! Here, take this [and go alone]
 
