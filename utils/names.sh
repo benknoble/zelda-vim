@@ -5,7 +5,8 @@
 
 set -euo pipefail
 
-dir="$( cd "$( dirname "${BASH_SOURCE[0]}")" && pwd )"
+utils_dir="$( cd "$( dirname "${BASH_SOURCE[0]}")" && pwd )"
+dir="${utils_dir}/.."
 
 # return the basename of all vim files in the colors directory
 find_color_files() {
