@@ -5,7 +5,8 @@
 
 set -euo pipefail
 
-dir="$( cd "$( dirname "${BASH_SOURCE[0]}")" && pwd )"
+utils_dir="$( cd "$( dirname "${BASH_SOURCE[0]}")" && pwd )"
+dir="${utils_dir}/.."
 
 # return the basename of all vim files in the colors directory
 find_color_files() {
@@ -14,7 +15,7 @@ find_color_files() {
 
 # transform the parameters by removing the vim suffix
 files_to_names() {
-  printf "%s\n" "${@%%.vim}"
+  printf '%s\n' "${@%%.vim}"
 }
 
 # transform the parameters by formatting them as
@@ -25,12 +26,13 @@ names_to_list() {
 
 main() {
   declare -a files names list
-  files=( $( find_color_files ) )
-  names=( $( files_to_names "${files[@]}" ) )
-  IFS=$'\n' list=( $( names_to_list "${names[@]}" ) )
-  printf -- "%s\n" "${list[@]}" | sort
-  # this would be sufficient, but I'm being a bit anal
+  mapfile -t files < <( find_color_files )
+  mapfile -t names < <( files_to_names "${files[@]}" )
+  mapfile -t list < <( names_to_list "${names[@]}" )
+  printf -- '%s\n' "${list[@]}" | sort
+  # either would be sufficient, but I'm being a bit anal
   # names_to_list "${names[@]}"
+  # names_to_list $( files_to_names $( find_color_files ) ) | sort
 }
 
 main
