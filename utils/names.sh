@@ -26,9 +26,9 @@ names_to_list() {
 
 main() {
   declare -a files names list
-  files=( $( find_color_files ) )
-  names=( $( files_to_names "${files[@]}" ) )
-  IFS=$'\n' list=( $( names_to_list "${names[@]}" ) )
+  mapfile -t files < <( find_color_files )
+  mapfile -t names < <( files_to_names "${files[@]}" )
+  mapfile -t list < <( names_to_list "${names[@]}" )
   printf -- '%s\n' "${list[@]}" | sort
   # either would be sufficient, but I'm being a bit anal
   # names_to_list "${names[@]}"
