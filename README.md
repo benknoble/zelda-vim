@@ -1,5 +1,7 @@
 # Adventure Awaits !
 
+[![This project is considered stable](https://img.shields.io/badge/status-stable-success.svg)](https://benknoble.github.io/status/stable/)
+
 Here be dragons, evil wizard beasts, forests (bad and good), and dungeons
 galore...
 
